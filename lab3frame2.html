@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> HTML Table </title>
+	</head>
+    <style>
+        table{
+            width:200px;
+            height:200px;
+            border: 2x solid pink;
+            border-collapse:collapse;
+            }
+        td,th{
+            border: 1x solid black;
+            }
+        tr{
+            text-align:center;
+        }
+    </style>
+	<body>
+		<table border="2">
+			<caption><b>Student List</b></caption>
+			<col group>
+				<col span ="4"style= "background-color:burlywood"/>
+			<thead>
+				<tr>
+					<th bgcolor= "brown"> ID </th>
+					<th> Name </th>
+					<th> CGPA </th>
+					<th colspan="2">Contact</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th bgcolor= "brown">01</td>
+					<td>Nafim</td>
+					<td>3.7</td>
+					<td>015785416</td>
+					<td>019544621</td>
+				</tr>
+				<tr>
+					<th bgcolor= "brown">02</td>
+					<td>Ishanee</td>
+					<td>4.0</td>
+					<td>015785416</td>
+					<td>019544621</td>
+				</tr>
+				<tr>
+					<th bgcolor= "brown">03</td>
+					<td>Coity</td>
+					<td>3.5</td>
+					<td>015785416</td>
+					<td>019544621</td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>
